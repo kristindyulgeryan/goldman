@@ -1,0 +1,33 @@
+.navbar-brand:hover {
+  transform: scale(1.1);
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+  transform-origin: left;
+}
+.cart:hover {
+  transform: scale(1.1);
+  transform-origin: left;
+}
+.heart:hover {
+  transform: scale(1.1);
+  transform-origin: left;
+}
+.location:hover {
+  transform: scale(1.1);
+  transform-origin: left;
+}
+
+.carousel-image-size {
+  height: 100vh;
+}
+.carousel-item {
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+#search-btn {
+  color: black;
+  border: 1px solid white;
+}
