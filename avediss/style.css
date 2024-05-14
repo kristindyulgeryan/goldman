@@ -24,8 +24,11 @@
 }
 .carousel-item {
   height: 100%;
-  object-position: center;
-  object-fit: cover;
+  /* object-position: center;
+  object-fit: cover; */
+}
+.i-image {
+  height: 100vh;
 }
 .form-control {
   cursor: pointer;
