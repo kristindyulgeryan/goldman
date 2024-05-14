@@ -27,7 +27,6 @@
   object-position: center;
   object-fit: cover;
 }
-#search-btn {
-  color: black;
-  border: 1px solid white;
+.form-control {
+  cursor: pointer;
 }
