@@ -1,3 +1,11 @@
+.carousel-item {
+  height: 680px;
+}
+.c-image {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.8);
+}
 .navbar-brand:hover {
   transform: scale(1.1);
 }
@@ -17,18 +25,6 @@
 .location:hover {
   transform: scale(1.1);
   transform-origin: left;
-}
-
-.carousel-image-size {
-  height: 100vh;
-}
-.carousel-item {
-  height: 100%;
-  /* object-position: center;
-  object-fit: cover; */
-}
-.i-image {
-  height: 100vh;
 }
 .form-control {
   cursor: pointer;
