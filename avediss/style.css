@@ -1,3 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* html ::-webkit-scrollbar-track {
+  background: transparent;
+}
+html ::-webkit-scrollbar-thumb {
+  background: #b2744c;
+  border-radius: 10px;
+}
+html ::-webkit-scrollbar {
+  width: 10px;
+} */
+
 .carousel-item {
   height: 680px;
 }
@@ -6,7 +22,7 @@
   object-fit: cover;
   filter: brightness(0.8);
 }
-.navbar-brand:hover {
+.brand-name:hover {
   transform: scale(1.1);
 }
 
