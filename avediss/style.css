@@ -23,7 +23,7 @@ html ::-webkit-scrollbar {
   filter: brightness(0.8);
 }
 .brand-name:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
 
 .nav-item:hover {
@@ -39,6 +39,10 @@ html ::-webkit-scrollbar {
   transform-origin: left;
 }
 .location:hover {
+  transform: scale(1.1);
+  transform-origin: left;
+}
+.navbar-brand:hover {
   transform: scale(1.1);
   transform-origin: left;
 }
