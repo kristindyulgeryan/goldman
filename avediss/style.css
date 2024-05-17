@@ -39,3 +39,13 @@
 .form-control {
   cursor: pointer;
 }
+
+.category-text {
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.category-text:hover {
+  border-bottom: 1px solid black;
+  /* text-decoration: underline; */
+}
