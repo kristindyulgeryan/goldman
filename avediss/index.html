@@ -1,318 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://www.fontspace.com/ananda-black-font-f85089"
-    />
-    <link rel="icon" type="image/png" sizes="32x32" href="image/logo.jpg" />
-    <title>Avediss Gold | Luxury Jewelry</title>
-  </head>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
 
-  <!-- Navbar -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://www.fontspace.com/ananda-black-font-f85089" />
+  <link rel="icon" type="image/png" sizes="32x32" href="image/logo.jpg" />
+  <title>Avediss Gold | Luxury Jewelry</title>
+</head>
 
-  <nav
-    class="navbar fixed-top navbar-expand-md"
-    style="z-index: 100; background: rgb(0, 0, 0, 0.1);"
-  >
-    <div class="container">
-      <a class="navbar-brand" href="#home">
-        <img
-          src="image/logo.jpg"
-          alt="image-crown"
-          width="40"
-          height="40"
-          class="d-inline-block"
-        />
-      </a>
-      <span
-        class="brand-name display-5 fst-italic text-uppercase text-primary fw-bolder"
-      >
-        Avediss Gold</span
-      >
+<!-- Navbar -->
 
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="home.html" style="color: #fff">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              id="navbarDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              data-bs-target="false"
-              href="Category.html"
-              style="color: #fff"
-              >Category</a
-            >
-            <ul
-              class="dropdown-menu dropdown-menu-dark"
-              aria-labelledby="navbarDropdown"
-            >
-              <li>
-                <a class="dropdown-item" href="all-jewelry.html">
-                  <p class="text-light">All jewelry</p>
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="rings.html">
-                  <p class="text-light">Rings</p>
-                </a>
-              </li>
+<nav class="navbar fixed-top navbar-expand-md" style="z-index: 100; background: rgb(0, 0, 0, 0.1);">
+  <div class="container">
+    <a class="navbar-brand" href="#home">
+      <img src="image/logo.jpg" alt="image-crown" width="40" height="40" class="d-inline-block" />
+    </a>
+    <span class="brand-name display-5 fst-italic text-uppercase text-primary fw-bolder">
+      Avediss Gold</span>
 
-              <li>
-                <a class="dropdown-item" href="earrings.html">
-                  <p class="text-light">Earrings</p>
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="bracelets.html">
-                  <p class="text-light">Bracelets</p>
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="engagement&wedding-rings.html">
-                  <p class="text-light">Engagement & Wedding Rings</p>
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="penants.html">
-                  <p class="text-light">Pendants</p>
-                </a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html" style="color: #fff">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html" style="color: #fff"
-              >Contact us
-            </a>
-          </li>
-        </ul>
-      </div>
-      <form class="d-flex ps-3">
-        <input type="text" placeholder="Search" class="form-control me-1" />
-        <button class="btn btn-outline-light">Search</button>
-      </form>
-      <a href=" cart-plus.html" class="cart text-light"
-        ><i class="bi bi-cart-plus ps-3" style="font-size: 1.5rem"></i>
-      </a>
-      <a href="heart-fill.html" class="heart ps-2 text-light"
-        ><i class="bi bi-heart-fill" style="font-size: 1.2rem"></i
-      ></a>
-      <a href="geo-alt-fill.html" class="location ps-2 text-light"
-        ><i class="bi bi-geo-alt-fill" style="font-size: 1.2rem"></i
-      ></a>
-    </div>
-  </nav>
-  <!-- Navbar -->
-
-  <!-- carousel start-->
-  <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button
-        type="button"
-        data-bs-target="#hero-carousel"
-        data-bs-slide-to="0"
-        class="active"
-        aria-current="true"
-        aria-label="Slide 1"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#hero-carousel"
-        data-bs-slide-to="1"
-        aria-label="Slide 2"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#hero-carousel"
-        data-bs-slide-to="2"
-        aria-label="Slide 3"
-      ></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img
-          src="image/kamuk.png"
-          class="d-block w-100 c-image"
-          alt="slide-1"
-        />
-        <div class="carousel-caption">
-          <p class="fs-3 text-uppercase">Discover Jewelry World</p>
-          <h1 class="display-1 fw-bolder text-capitalize fst-italic">
-            Avediss Gold
-          </h1>
-          <button class="btn btn-secondary px-4 py-2 fs-4 mt-3">Buy Now</button>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img
-          src="image/earring.jpg"
-          class="d-block w-100 c-image"
-          alt="slide-2"
-        />
-        <div class="carousel-caption">
-          <p class="fs-3 text-uppercase">
-            High quality jewelry, unique designs
-          </p>
-          <h1 class="display-1 fw-bolder text-capitalize fst-italic">
-            Avediss Gold
-          </h1>
-          <button class="btn btn-secondary px-4 py-2 fs-4 mt-3">Buy Now</button>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img
-          src="image/chain.png"
-          class="d-block w-100 c-image"
-          alt="slide-3"
-        />
-        <div class="carousel-caption">
-          <p class="fs-3 text-uppercase">Wear them anytime, anywhere</p>
-          <h1 class="display-1 fw-bolder text-capitalize fst-italic">
-            Avediss Gold
-          </h1>
-          <button class="btn btn-secondary px-4 py-2 fs-4 mt-3">Buy Now</button>
-        </div>
-      </div>
-    </div>
-    <button
-      class="carousel-control-prev"
-      type="button"
-      data-bs-target="#hero-carousel"
-      data-bs-slide="prev"
-    >
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <button
-      class="carousel-control-next"
-      type="button"
-      data-bs-target="#hero-carousel"
-      data-bs-slide="next"
-    >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="home.html" style="color: #fff">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            data-bs-target="false" href="Category.html" style="color: #fff">Category</a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+            <li>
+              <a class="dropdown-item" href="all-jewelry.html">
+                <p class="text-light">All jewelry</p>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="rings.html">
+                <p class="text-light">Rings</p>
+              </a>
+            </li>
+
+            <li>
+              <a class="dropdown-item" href="earrings.html">
+                <p class="text-light">Earrings</p>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="bracelets.html">
+                <p class="text-light">Bracelets</p>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="engagement&wedding-rings.html">
+                <p class="text-light">Engagement & Wedding Rings</p>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="penants.html">
+                <p class="text-light">Pendants</p>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html" style="color: #fff">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html" style="color: #fff">Contact us
+          </a>
+        </li>
+      </ul>
+    </div>
+    <form class="d-flex ps-3">
+      <input type="text" placeholder="Search" class="form-control me-1" />
+      <button class="btn btn-outline-light">Search</button>
+    </form>
+    <a href=" cart-plus.html" class="cart text-light"><i class="bi bi-cart-plus ps-3" style="font-size: 1.5rem"></i>
+    </a>
+    <a href="heart-fill.html" class="heart ps-2 text-light"><i class="bi bi-heart-fill"
+        style="font-size: 1.2rem"></i></a>
+    <a href="geo-alt-fill.html" class="location ps-2 text-light"><i class="bi bi-geo-alt-fill"
+        style="font-size: 1.2rem"></i></a>
   </div>
-  <!-- carousel end -->
+</nav>
+<!-- Navbar -->
 
-  <!-- category start -->
-  <section id="category" class="py-5">
-    <div class="container">
-      <div class="title text-center fw-bolder mb-2">
-        <h1>Shop By Category<h1>
-          <p class="text-primary fst-italic fs-5 font-space ">Choose Your Own Jewelry</p>
+<!-- Carousel Start-->
+<div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true"
+      aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/kamuk.png" class="d-block w-100 c-image" alt="slide-1" />
+      <div class="carousel-caption">
+        <p class="fs-3 text-uppercase">Discover Jewelry World</p>
+        <h1 class="display-1 fw-bolder text-capitalize fst-italic">
+          Avediss Gold
+        </h1>
+        <button class="btn btn-secondary px-4 py-2 fs-4 mt-3">Buy Now</button>
       </div>
-      <div class="card-category d-flex mt-5">
-        <div
-          class="card-outline-hidden text-center  me-4"
-          style="width: 13rem; height: 13rem"
-        >
-          <div class="card-body">
-            <img src="image/bracelet-2.jpg" class="card-img" alt="..." />
-            <a href="all-jewelry.html" class="category-text text-dark">All Jewelry</a>
-          </div>
-        </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/earring.jpg" class="d-block w-100 c-image" alt="slide-2" />
+      <div class="carousel-caption">
+        <p class="fs-3 text-uppercase">
+          High quality jewelry, unique designs
+        </p>
+        <h1 class="display-1 fw-bolder text-capitalize fst-italic">
+          Avediss Gold
+        </h1>
+        <button class="btn btn-secondary px-4 py-2 fs-4 mt-3">Buy Now</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/chain.png" class="d-block w-100 c-image" alt="slide-3" />
+      <div class="carousel-caption">
+        <p class="fs-3 text-uppercase">Wear them anytime, anywhere</p>
+        <h1 class="display-1 fw-bolder text-capitalize fst-italic">
+          Avediss Gold
+        </h1>
+        <button class="btn btn-secondary px-4 py-2 fs-4 mt-3">Buy Now</button>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Carousel End -->
 
-        <div
-          class="card-outline-hidden text-center me-4"
-          style="width: 13rem; height: 13rem" Earrings
-          ... Bracelets
-          
-        >
-          <div class="card-body">
-            <img src="image/ring-4.jpg" class="card-img" alt="..." />
-            <a href="rings.html" class="category-text text-dark">Rings</a>
-          </div>
+<!-- Category start -->
+<section id="category" class="py-5">
+  <div class="container">
+    <div class="title text-center fw-bolder mb-2">
+      <h1>Shop By Category<h1>
+          <p class="text-primary fst-italic fs-5 font-space ">Choose Your Own Jewelry</p>
+    </div>
+    <div class="card-category d-flex mt-5">
+      <div class="card-outline-hidden text-center  me-4" style="width: 13rem; height: 13rem">
+        <div class="card-body">
+          <img src="image/bracelet-2.jpg" class="card-img" alt="..." />
+          <a href="all-jewelry.html" class="category-text text-dark">All Jewelry</a>
         </div>
+      </div>
 
-        <div
-          class="card-outline-hidden text-center me-4"
-          style="width: 13rem; height: 13rem"
-        >
-          <div class="card-body">
-            <img src="image/earrings-6.jpg" class="card-img" alt="..." />
-            <a href="earrings.html" class="category-text text-dark">Earrings</a>
-          </div>
+      <div class="card-outline-hidden text-center me-4" style="width: 13rem; height: 13rem" Earrings ... Bracelets>
+        <div class="card-body">
+          <img src="image/ring-4.jpg" class="card-img" alt="..." />
+          <a href="rings.html" class="category-text text-dark">Rings</a>
         </div>
+      </div>
 
-        <div
-          class="card-outline-hidden text-center me-4"
-          style="width: 13rem; height: 13rem"
-        >
-          <div class="card-body">
-            <img src="image/bracelet.jpg" class="card-img" alt="..." />
-            <a href="bracelets.html" class="category-text text-dark">Bracelets</a>
-          </div>
+      <div class="card-outline-hidden text-center me-4" style="width: 13rem; height: 13rem">
+        <div class="card-body">
+          <img src="image/earrings-6.jpg" class="card-img" alt="..." />
+          <a href="earrings.html" class="category-text text-dark">Earrings</a>
         </div>
+      </div>
 
-        <div
-          class="card-outline-hidden text-center me-4"
-          style="width: 13rem; height: 13rem"
-        >
-          <div class="card-body">
-            <img src="image/pedant.png" class="card-img" alt="..." />
-            <a href="pendants.html" class="category-text text-dark">Pendants</a>
-          </div>
+      <div class="card-outline-hidden text-center me-4" style="width: 13rem; height: 13rem">
+        <div class="card-body">
+          <img src="image/bracelet.jpg" class="card-img" alt="..." />
+          <a href="bracelets.html" class="category-text text-dark">Bracelets</a>
         </div>
+      </div>
 
-        <div
-          class="card-outline-hidden text-center"
-          style="width: 13rem; height: 13rem"
-        >
-          <div class="card-body">
-            <img src="image/ring.jpg" class="card-img" alt="..." />
-            <a href="Engagement&Wedding-Rings.html" class="category-text text-dark">Engagement & Wedding Rings</a>
-          </div>
+      <div class="card-outline-hidden text-center me-4" style="width: 13rem; height: 13rem">
+        <div class="card-body">
+          <img src="image/pedant.png" class="card-img" alt="..." />
+          <a href="pendants.html" class="category-text text-dark">Pendants</a>
+        </div>
+      </div>
+
+      <div class="card-outline-hidden text-center" style="width: 13rem; height: 13rem">
+        <div class="card-body">
+          <img src="image/ring.jpg" class="card-img" alt="..." />
+          <a href="Engagement&Wedding-Rings.html" class="category-text text-dark">Engagement & Wedding Rings</a>
         </div>
       </div>
     </div>
-    <div class="container-xl  mt-5 pt-5" style="background-color: #8caaad">
-      <div class="row ">
-        <div class="col-sm-3 mb-3">
+  </div>
+  <div class="container-xl  mt-5 pt-5" style="background-color: #8caaad">
+    <div class="row ">
+      <div class="col-sm-3 mb-3">
 
-          <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  TYPE OF METAL
-                </button>
-              </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button  collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                TYPE OF METAL
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                   <label class="form-check-label" for="flexCheckDefault">
@@ -332,229 +233,540 @@
                   </label>
                 </div>
               </div>
-              </div>
-            </div>
-
-            
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  SELECTION FOR
-                </button>
-              </h2>
-              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                      HER
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                      HIM
-                    </label>
-                  </div>       
-                </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                    COLLECTION
-                  </button>
-                </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                 <div class="accordion-body">
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
-                        HANDMADE JEWELRY
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">
-                        FABRIC JEWELRY
-                      </label>
-                    </div>       
-                </div>
-              </div>
-              </div>           
-            </div>         
-        </div>
-      <div class="col-sm-4 center">
-          <div class="row">
-        
-              <video width="100" height="400" controls>
-                <source src="image/20191010_115612.mp4" type="video/mp4">
-                <source src="movie.ogg" type="video/ogg"> Your browser does not support the video tag. </video>
             </div>
           </div>
-          <div class="col-sm-5">
-            <div class="text-center">
-               <p class="text fw-bolder fst-italic text-uppercase">Jewelry World</p>
-              <ul>
-                <li>Each piece is handcrafted by master artisans who blend traditional techniques with contemporary designs, ensuring every item is a work of art that tells a story of heritage and dedication.</li>
-               <br> <li>Clean lines, understated elegance, and versatile designs define our collection, perfect for those who believe that less is more and that true style is found in the details.</li>
-               <br><li>Our jewelry is for the free-spirited and the dreamers. Each piece is inspired by the beauty of nature and the world around us, featuring vibrant colors, organic shapes, and intricate patterns. Wear our jewelry to express your individuality and artistic soul</li> 
-              </ul>
-              <p class="text-start fw-bolder text-primary fst-italic">Embrace the romance of timeless beauty with our jewelry.</p>
+
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                SELECTION FOR
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    HER
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    HIM
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                COLLECTION
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+              data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    HANDMADE JEWELRY
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    FABRIC JEWELRY
+                  </label>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-     <!-- category end -->
+      <div class="col-sm-4 center">
+        <div class="row">
+
+          <video width="100" height="400" controls>
+            <source src="image/20191010_115612.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg"> Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <div class="col-sm-5">
+        <div class="text-center">
+          <p class="text fw-bolder fst-italic text-uppercase">Jewelry World</p>
+          <ul>
+            <li>Each piece is handcrafted by master artisans who blend traditional techniques with contemporary designs,
+              ensuring every item is a work of art that tells a story of heritage and dedication.</li>
+            <br>
+            <li>Clean lines, understated elegance, and versatile designs define our collection, perfect for those who
+              believe that less is more and that true style is found in the details.</li>
+            <br>
+            <li>Our jewelry is for the free-spirited and the dreamers. Each piece is inspired by the beauty of nature
+              and the world around us, featuring vibrant colors, organic shapes, and intricate patterns. Wear our
+              jewelry to express your individuality and artistic soul.</li>
+          </ul>
+          <p class="text-start fw-bolder text-primary fst-italic">Embrace the romance of timeless beauty with our
+            jewelry.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Category end -->
 
 <!-- Collection end -->
-<section id="collection" class="card-collection">
-  <div class="container">
-    <div class="row">
+<div class="container py-5">
+  <h1 class="text-center">What you need right now</h1>
 
-         <div class="col-2">
-          <div
-          class="card text-center me-4"
-          style="width: 15rem; height: 15rem"
-        >
-          <div class="card-body">
-            <img src="image/earrings-1.jpg" class="card-img" alt="..." />
-            <a href="earrings.html" class="collection-text text-dark">Earrings</a>
-            <p class="price fw-bolder">14kr $55.00 </p>
-            <a href="#" class="btn btn-primary">Shop Now</a>
-          </div>
-        </div>
-        </div>
+  <div class="row row-cols-1 row-cols-md-4 g-4 py-5">
 
+    <div class="col">
 
- 
-        <div class="col-2">        
-<div
-          class="card position-relative text-center me-4"
-          style="width: 15rem; height: 15rem"
-        >
-          <div class="card-body">
-            <img src="image/earrings-2.jpg" class="card-img" alt="..." />
-            <a href="earrings.html" class="collection-text text-dark">Earrings</a>
-            <p class="price fw-bolder">14kr $55.00 </p>
-            <button class="btn btn-secondary">Shop Now</button>
-          </div>
-        </div>
-      </div>
-    
-
-<div class="col-2">
-        <div
-        class="card position-relative text-center me-4"
-        style="width: 15rem; height: 15rem"
-      >
-        <div class="card-body">
-          <img src="image/earrings-8.jpg" class="card-img" alt="..." />
-          <a href="earrings.html" class="collection-text text-dark">Earrings</a>
-          <p class="price fw-bolder">14kr $55.00 </p>
-          <button class="btn btn-secondary">Shop Now</button>
+      <div class="card" style="width: 18rem;">
+        <img src="image/bracelet-5.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Bracelet</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
         </div>
       </div>
     </div>
 
-    <div class="col-2">
-      <div
-          class="card position-relative text-center me-4"
-          style="width: 15rem; height: 15rem"
-        >
-          <div class="card-body">
-            <img src="image/earrings-4.jpg" class="card-img" alt="..." />
-            <a href="earrings.html" class="collection-text text-dark">Earrings</a>
-            <p class="price fw-bolder">14kr $55.00 </p>
-            <button class="btn btn-secondary">Shop Now</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div
-          class="card position-relative text-center me-4"
-          style="width: 15rem; height: 15rem"
-        >
-          <div class="card-body">
-            <img src="image/earrings-5.jpg" class="card-img" alt="..." />
-            <a href="earrings.html" class="collection-text text-dark">Earrings</a>
-            <p class="price fw-bolder">14kr $55.00 </p>
-            <button class="btn btn-secondary">Shop Now</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-2">
-        <div
-        class="card position-relative text-center me-4"
-        style="width: 15rem; height: 15rem"
-      >
-        <div class="card-body">
-          <img src="image/earrings-7.jpg" class="card-img" alt="..." />
-          <a href="earrings.html" class="collection-text text-dark">Earrings</a>
-          <p class="price fw-bolder">14kr $55.00</p>
-          <button class="btn btn-secondary">Shop Now</button>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/bracelet-6.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Bracelet</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
         </div>
       </div>
     </div>
 
-    <div class="col-2">
-      <div class="card position-relative text-center me-4"
-      style="width: 15rem; height: 15rem">
-      <div class="card-body">
-        <img src="image/earrings-8.jpg" class="card-img" alt="..." />
-        <a href="earrings.html" class="collection-text text-dark">Earrings</a> 
-        <p class="price fw-bolder">14kr $55.00</p>
-        <button class="btn btn-secondary">Shop Now</button> 
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/bracelet-7.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Bracelet</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
       </div>
     </div>
-</div>
 
-<div class="col-2">
-    <div class="card position-relative text-center me-4"
-    style="width: 15rem; height: 15rem">
-    <div class="card-body">
-      <img src="image/bracelet-1.jpg" class="card-img" alt="..." />
-      <a href="bracelets.html" class="collection-text text-dark">Bracelet</a> 
-      <p class="price fw-bolder">14kr $55.00</p> 
-      <button class="btn btn-secondary">Shop Now</button>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/bracelet-8.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Bracelet</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
     </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/bracelet-9.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Bracelet</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/bracelet-10.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Bracelet</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/bracelet-11.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Bracelet</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/bracelet-12.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Bracelet</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/bracelet-13.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Bracelet</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/bracelet-14.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Bracelet</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/earrings-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Earrings</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/earrings-2.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Earrings</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/earrings-4.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Earrings</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/earrings-5.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Earrings</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/earrings-6.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Earrings</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/earrings-7.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Earrings</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/earrings-8.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Earrings</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/ring-2.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Ring</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/ring-4.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Ring</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/ring-6.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Ring</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/ring-7.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Ring</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/ring-8.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Ring</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/rings-5.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Ring</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/rings-6jpg.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Ring</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/pendant-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Pendant</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/pendant-2.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Pendant</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+<div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/pendant-3.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Pendant</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/pendant-4.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Pendant</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/pendant-5.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Pendant</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/pendant-6.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Pendant</h5>
+          <p class="card-text">14kr Yellow/White/Pink gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/pendant-7.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Pendant</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/pendant-8.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Pendant</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/pendant-9.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Pendant</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/pendant-10.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Pendant</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/pendant-11.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Pendant</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/pendant-12.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Pendant</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/penadnt-13.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Pendant</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <img src="image/pendant-14.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Pendant</h5>
+          <p class="card-text">14kr Yellow gold <br>$50.00</p>
+          <a href="#" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
 
-<div class="col-2">
-  <div class="card position-relative text-center me-4"
-  style="width: 15rem; height: 15rem">
-  <div class="card-body">
-    <img src="image/bracelet-5.jpg" class="card-img" alt="..." />
-    <a href="bracelets.html" class="collection-text text-dark">Bracelet</a> 
-    <p class="price fw-bolder">14kr $55.00</p> 
-    <button class="btn btn-secondary">Shop Now</button>
-  </div>  
-</div>
-</div>
-    </div> 
-    </div>
-  
-  
-</section>
- <!-- Collection end -->
+<!-- Collection end -->
 
-  
 
-  <!-- About -->
 
-  <!-- Contact us -->
+<!-- About -->
 
-  <body>
-    <!-- Bootstrap JS -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+<!-- Contact us -->
+
+<body>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

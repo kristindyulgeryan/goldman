@@ -52,3 +52,20 @@
 .collection-text {
   text-decoration: none;
 }
+
+.card img {
+  border-radius: 50px;
+  padding: 20px;
+}
+.card {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.card-body a {
+  border-radius: 50px;
+  width: 120px;
+}
+.card-body a:hover {
+  background-color: rgb(27, 25, 25);
+}
