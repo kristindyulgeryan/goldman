@@ -58,7 +58,7 @@
   padding: 20px;
 }
 .card {
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+  box-shadow: rgba(14, 30, 37, 0.12) 0 2px 4px 0,
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
@@ -112,21 +112,65 @@ iframe{
   margin-top: 8%;
 }
 #footer{
-  font-size: 16px;
-  font-family: "Agency FB", sans-serif;
-  color: white;
-  background-color: #343434;
-  padding-top: 50px;
+  background-color:hsl(186, 100%, 40%);;
   margin-top: 30px;
+
 }
-.footer-container{
-  margin: auto;
-  width: 1140px;
-  height: 200px;
-  display: flex;
-  justify-content: space-between;
+.footer-section {
+  display: inline-block;
+  width: 30%;
+  margin: 1rem;
+  vertical-align: top;
+  justify-content: center;
   align-items: center;
+  text-align: center;
+
 }
-.footer-content{
-  width: 33.3%;
+.footer-section__title {
+  color: black;
+  font-size: 28px;
+  font-weight: bolder;
+}
+ul{
+  list-style: none;
+}
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 25px;
+ font-weight:700;
+}
+
+.footer-links{
+  font-size: 20px;
+  font-weight:700;
+  max-height: max-content;
+}
+
+address{
+  font-size: 20px;
+  font-weight:700;
+}
+
+address p a {
+  color: #023275;;
+  font-style: italic;
+}
+
+.footer-links a {
+  color:  #023275;
+  font-style: italic;
+}
+
+.footer-icons i {
+  color:  #023275;
+  font-style: italic;
+}
+
+.bottom-bar{
+  background: hsl(186, 100%, 20%);
+  padding: 20px 0;
+  text-align: center;
+  font-size: 16px;
 }
